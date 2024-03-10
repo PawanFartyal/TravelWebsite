@@ -44,11 +44,14 @@ nav{
     transform: translate(0,25%);
 }
 .links a{
-    padding-right: 2.5rem;
+    padding-right: 4rem;
     text-decoration: none;
     font-size:.85rem ;
     color: black;
     font-weight: 400;
+}
+.links a:nth-child(1){
+    font-weight: 800;
 }
 /* Overview Section */
 .Overview{
